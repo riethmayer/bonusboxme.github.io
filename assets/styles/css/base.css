@@ -1,0 +1,71 @@
+/* @include font-face(Meta, '/assets/fonts/MetaWeb-Book', 400, normal);
+@include font-face(Meta, '/assets/fonts/MetaWeb-Bold', 600, normal); */
+@font-face {
+  font-family: Meta;
+  src: url("../../fonts/MetaWeb-Book.eot");
+  src: url("../../fonts/MetaWeb-Book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: Meta;
+  src: url("../../fonts/MetaWeb-Bold.eot");
+  src: url("../../fonts/MetaWeb-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+
+body {
+  background-color: #e6eaf0;
+  font-family: Meta, Helvetica, sans-serif;
+  color: #0f4083;
+  text-align: center;
+  line-height: 1.5em; }
+
+.container {
+  max-width: 1024px;
+  margin: 5rem auto; }
+
+header {
+  margin-bottom: 2rem; }
+
+h2 {
+  color: #768cad;
+  font-size: 16px;
+  font-weight: normal;
+  max-width: 32rem;
+  display: block;
+  margin: 0 auto; }
+
+.swatch {
+  width: 178px;
+  height: 247px;
+  margin: 7px;
+  display: inline-block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-align: center;
+  -moz-box-shadow: 0px 1px 3px 1px #ccc;
+  -webkit-box-shadow: 0px 1px 3px 1px #ccc;
+  box-shadow: 0px 1px 3px 1px #ccc; }
+  .swatch.blue {
+    background-color: #0f4083; }
+  .swatch.orange {
+    background-color: #ee601e; }
+  .swatch.yellow {
+    background-color: #fdb30c; }
+  .swatch p {
+    top: 162px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 11px;
+    color: #768cad;
+    padding: 18px 7px;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: #dfe0e1;
+    background-color: #fff;
+    box-sizing: border-box; }

@@ -1,0 +1,69 @@
+@import "utilities";
+@import "color_typography";
+
+body {
+	background-color: $light-blue;
+	font-family: $sans;
+	color: $blue;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+.container {
+	max-width: 1024px;
+	margin: 5rem auto;
+}
+
+header {
+	margin-bottom: 2rem;
+}
+h2 {
+	color: darken($light-blue, 35%);
+	font-size: 16px;
+	font-weight: normal;
+	max-width: 32rem;
+	display: block;
+	margin: 0 auto;
+}
+
+.swatch {
+	width: 178px;
+	height: 247px;
+	margin: 7px;
+	display: inline-block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	text-align: center;
+
+	-moz-box-shadow:    0px 1px 3px 1px #ccc;
+	-webkit-box-shadow: 0px 1px 3px 1px #ccc;
+	box-shadow:         0px 1px 3px 1px #ccc;
+
+	&.blue {
+		background-color: $blue;
+	}
+	&.orange {
+		background-color: $orange;
+	}
+	&.yellow {
+		background-color: $yellow;
+	}
+
+	p {
+		top: 162px;
+		border-bottom-right-radius: 3px;
+		border-bottom-left-radius: 3px;
+		font-size: 11px;
+		color: darken($light-blue, 35%);
+		padding: 18px 7px;
+		margin: 0;
+		position: relative;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-color: #dfe0e1;
+		background-color: #fff;
+		box-sizing: border-box;
+	}
+}
