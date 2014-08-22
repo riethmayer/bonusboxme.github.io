@@ -14,28 +14,111 @@
   font-weight: 600;
   font-style: normal; }
 
+@font-face {
+  font-family: ProximaNova;
+  src: url("../../fonts/ProximaNova-Regular.eot");
+  src: url("../../fonts/ProximaNova-Regular.woff") format("woff");
+  font-weight: 400; }  
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("../../fonts/ProximaNova-Light.eot");
+  src: url("../../fonts/ProximaNova-Light.woff") format("woff");
+  font-weight: 300; } 
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("../../fonts/ProximaNova-Semibold.eot");
+  src: url("../../fonts/ProximaNova-Semibold.woff") format("woff");
+  font-weight: 700; } 
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("../../fonts/ProximaNova-Bold.eot");
+  src: url("../../fonts/ProximaNova-Bold.woff") format("woff");
+  font-weight: 700; } 
+
+@font-face {
+  font-family: BrandonGrotesque;
+  src: url("../../fonts/Brandon_reg.eot");
+  src: url("../../fonts/Brandon_reg.woff") format("woff");
+  font-weight: 400; }
+
+@font-face {
+  font-family: BrandonGrotesque;
+  src: url("../../fonts/Brandon_bld.eot");
+  src: url("../../fonts/Brandon_bld.woff") format("woff");
+  font-weight: 700; } 
+
+@font-face {
+  font-family: BrandonGrotesque;
+  src: url("../../fonts/Brandon_light.eot");
+  src: url("../../fonts/Brandon_light.woff") format("woff");
+  font-weight: 300; } 
+
+@font-face {
+  font-family: BrandonGrotesque;
+  src: url("../../fonts/Brandon_med.eot");
+  src: url("../../fonts/Brandon_med.woff") format("woff");
+  font-weight: 500; } 
+
 body {
   background-color: #e6eaf0;
   font-family: Meta, Helvetica, sans-serif;
   color: #0f4083;
   text-align: center;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  margin: 0px 0px 0px 0px}
 
 .container {
   max-width: 1024px;
   margin: 5rem auto; }
 
+
 header {
   margin-bottom: 2rem; }
 
-h2 {
-  color: #768cad;
-  font-size: 16px;
-  font-weight: normal;
+
+h1, h2 {
   max-width: 32rem;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
+h1 {
+  color: #0F4083;
+  font-family: BrandonGrotesque;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 24px;
+  margin-top:  0.83em;
+  margin-bottom:  0.83em;
+}
+
+h2 {
+  color: #0F4083;
+  font-size: 18px;
+  font-family: BrandonGrotesque;
+  text-transform: uppercase;
+  font-weight: 300;
+  
+}
+
+h3 {
+  color: #768cad;
+  font-size: 18px;
+  font-weight: normal;
+  max-width:770px;
+  display: block;
+  text-align: left;
+  margin: 0 auto;
+  font-family: ProximaNova;
+  font-weight: 300;
+}
+
+.color-swatches {
+  padding-bottom: 15px;
+}
 .swatch {
   width: 178px;
   height: 247px;
@@ -53,6 +136,16 @@ h2 {
     background-color: #ee601e; }
   .swatch.yellow {
     background-color: #fdb30c; }
+  .swatch.b2c1 {
+    background-color: #fdb30c; }
+  .swatch.b2c2 {
+    background-color: #fdb30c; }
+  .swatch.b2c3 {
+    background-color: #fdb30c; }
+  .swatch.typography {
+    background-color: #FAFAFA; }
+
+
   .swatch p {
     top: 162px;
     border-bottom-right-radius: 3px;
@@ -69,3 +162,164 @@ h2 {
     border-color: #dfe0e1;
     background-color: #fff;
     box-sizing: border-box; }
+
+   .swatch.typography p {
+    top: 67px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 11px;
+    color: #768cad;
+    padding: 18px 7px;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: #dfe0e1;
+    background-color: #fff;
+    box-sizing: border-box; }
+
+.FontContainer {
+    padding-bottom: 20px;
+  }
+
+.MetaOT {
+    font-family: Meta;
+    font-size:30px;
+    padding-top: 70px;}
+
+ 
+
+.BrandonGrotesque {
+    font-family: BrandonGrotesque;
+    font-weight: 400; 
+    font-size:30px;
+    padding-top: 70px;}
+
+  .BrandonGrotesque.bold{
+    font-family: BrandonGrotesque;
+    font-weight: 700;}
+
+  .BrandonGrotesque.light{
+    font-family: BrandonGrotesque;
+    font-weight: 300;}
+
+  .BrandonGrotesque.med{
+    font-family: BrandonGrotesque;
+    font-weight: 500;}
+
+.ProximaNova{
+    font-family: ProximaNova;
+    font-size:30px;
+    padding-top: 70px;}
+
+  .ProximaNova.light{
+    font-family: ProximaNova;
+    font-weight: 300;}
+
+  .ProximaNova.regular{
+    font-family: ProximaNova;
+    font-weight: 400;}
+
+  .ProximaNova.semibold{
+    font-family: ProximaNova;
+    font-weight: 600;}
+
+  .ProximaNova.bold{
+    font-family: ProximaNova;
+    font-weight: 700;}
+
+.bgsample13{
+  font-family: BrandonGrotesque;
+  font-size: 13px;
+}
+
+.bgsample14{
+  font-family: BrandonGrotesque;
+  font-size: 14px;
+}
+
+.bgsample15{
+  font-family: BrandonGrotesque;
+  font-size: 15px;
+}
+
+.bgsample16{
+  font-family: BrandonGrotesque;
+  font-size: 16px;
+}
+
+.bgsample18{
+  font-family: BrandonGrotesque;
+  font-size: 18px;
+}
+
+.bgsample22{
+  font-family: BrandonGrotesque;
+  font-size: 22px;
+}
+
+.pnsample13{
+  font-family: ProximaNova;
+  font-size: 13px;
+}
+
+.pnsample14{
+  font-family: ProximaNova;
+  font-size: 14px;
+}
+
+.pnsample15{
+  font-family: ProximaNova;
+  font-size: 15px;
+}
+
+.pnsample16{
+  font-family: ProximaNova;
+  font-size: 16px;
+}
+
+.pnsample18{
+  font-family: ProximaNova;
+  font-size: 18px;
+}
+
+.pnsample22{
+  font-family: ProximaNova;
+  font-size: 22px;
+}
+
+.metasample13{
+  font-family: Meta;
+  font-size: 13px;
+}
+
+.metasample14{
+  font-family: Meta;
+  font-size: 14px;
+}
+
+.metasample15{
+  font-family: Meta;
+  font-size: 15px;
+}
+
+.metasample16{
+  font-family: Meta;
+  font-size: 16px;
+}
+
+.metasample18{
+  font-family: Meta;
+  font-size: 18px;
+}
+
+.metasample22{
+  font-family: Meta;
+  font-size: 22px;
+}
+
+
+
+
