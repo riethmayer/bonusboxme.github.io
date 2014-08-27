@@ -134,6 +134,10 @@ h3 {
     background-color: #0f4083; }
   .swatch.orange {
     background-color: #ee601e; }
+  .swatch.lightblue {
+    background-color: #E6EAF0; }
+  .swatch.brightblue {
+    background-color:#0051AA; }
   .swatch.yellow {
     background-color: #fdb30c; }
   .swatch.b2c1 {
@@ -144,6 +148,25 @@ h3 {
     background-color: #fdb30c; }
   .swatch.typography {
     background-color: #FAFAFA; }
+  .swatch.pointsblue {
+    background: rgba(64,100,175,0.15);
+  }
+  .swatch.pointsblue.text {
+    background: #4064AF;
+  }
+  .swatch.pointsorange {
+    background: rgba(232,91,24,0.15);
+  }
+  .swatch.pointsorange.text {
+    background: #E85B18;
+  }
+  .swatch.pointsgreen {
+    background: #c8e0d8;
+  }
+
+  .swatch.pointsgreen.text {
+    background: #009160;
+  }
 
 
   .swatch p {

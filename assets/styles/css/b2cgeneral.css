@@ -1,0 +1,81 @@
+.metaot {
+	font-family: Meta;
+}
+
+.floatleft {
+	float: left;
+	padding: 10px 10px 10px 10px;
+}
+
+.floatright {
+	float:right;
+	padding: 10px 10px 10px 10px;
+}
+
+.floatbox {
+	background-color: #ffffff;
+	border-color: #104084;
+	/*border-width: 2px;
+	border-style: solid;*/
+	height: 90px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.floatbox.fourlines{
+	height: 110px;
+}
+
+.shopindexheaders {
+	font-size: 23px;
+	font-weight: 400;
+	color: #104084;
+	font-family: meta;
+}
+
+.navtext {
+	font-size: 14px;
+	color: #104084;
+	font-family: "Meta", "Helvetica Neue", Helvetica, Arial;
+	font-weight: 500;
+}
+
+.navdropdowntext{
+	font-size: 0.9em;
+	color: #104084;
+	font-family: "Meta", "Helvetica Neue", Helvetica, Arial;
+	font-weight: 500;
+}
+
+.footer {
+	color:#000000;
+	font-size:15px;
+	font-family: "Meta", "Helvetica Neue", Helvetica, Arial;
+}
+
+.footer.links {
+	font-weight: 500;	
+}
+
+.footer.header {
+	font-weight: 700;	
+}
+
+.hovercolor {
+	color: #e84818;
+}
+
+.indexh4 {
+	font-size: 16px;
+	color: #104084;
+	font-family: "Meta", "Helvetica Neue", Helvetica, Arial;
+	font-weight: 500;
+}
+
+.profiledropdowntext {
+	font-size: 14px;
+	color: #104084;
+	font-family: "Meta", "Helvetica Neue", Helvetica, Arial;
+	font-weight: 500;
+
+}

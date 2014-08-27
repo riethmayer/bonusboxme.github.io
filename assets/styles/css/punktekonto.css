@@ -1,0 +1,79 @@
+.floatleft {
+	float: left;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+}
+
+.floatright {
+	float:right;
+	padding: 10px 10px 10px 10px;
+	text-align: right;
+}
+
+.floatbox {
+	background-color: #ffffff;
+	border-color: #104084;
+	/*border-width: 2px;
+	border-style: solid;*/
+	height: 90px;
+	width: 770px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.color {
+
+}
+.color.left {
+	float:left;
+	width: 250px;
+	height: 90px;
+}
+
+.color.left.pointsblue {
+    background: rgba(64,100,175,0.15);
+  }
+.color.left.pointsblue.text {
+    background: #4064AF;
+  }
+ .color.left.pointsorange {
+    background: rgba(232,91,24,0.15);
+  }
+ .color.left.pointsorange.text {
+    background: #E85B18;
+  }
+ .color.left.pointsgreen {
+    background: #c8e0d8;
+  }
+ .color.left.pointsgreen.text {
+    background: #009160;
+  }
+
+
+.floatbox.fourlines{
+	height: 110px;
+}
+
+.floatbox.fivelines{
+	height: 140px;
+}
+
+.pointssummary {
+	font-weight: 500; 
+	font-size: 32px;
+	font-family: "Clan", "Helvetica neue", helvetica, arial;
+}
+
+.pointssummarytext {
+	font-size: 15px;
+	font-family: "Meta", "Helvetica Neue", Helvetica, Arial;
+	font-weight: 700;
+}
+
+.i18n-19 {
+	font-size: 13px;
+	color: #1482ed;
+	font-family: "Meta", "Helvetica Neue", Helvetica, Arial;
+	font-weight: 500;
+}
