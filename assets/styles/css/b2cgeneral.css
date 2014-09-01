@@ -1,29 +1,108 @@
+/*text things*/
+
+.metaexample {
+	font-family: meta;
+	font-weight: 400;
+	font-size: 40px;
+	color: #ffffff;
+}
+
+.brandonexample {
+	font-family: BrandonGrotesque;
+	font-weight: 400;
+	font-size: 40px;
+	color: #ffffff;
+}
+
+.brandonexample.two {
+	font-size: 30px;
+	
+}
+
+.header {
+	font-size: 90px;
+	line-height: 140px;
+	font-family: BrandonGrotesque;
+	font-weight: 200;
+}
+
+/*sections*/
+.color {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.typography {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.typographyhierarchy {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
 .metaot {
 	font-family: Meta;
 }
 
-.floatleft {
-	float: left;
-	padding: 10px 10px 10px 10px;
-}
-
-.floatright {
-	float:right;
-	padding: 10px 10px 10px 10px;
-}
+/*horizontal information boxes*/
 
 .floatbox {
-	background-color: #ffffff;
+	background-color: #B8C8E1;
 	border-color: #104084;
 	/*border-width: 2px;
 	border-style: solid;*/
 	height: 90px;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	width: 1024px;
+	margin-left: auto ;
+  margin-right: auto ;
 }
 
 .floatbox.fourlines{
 	height: 110px;
+}
+
+.floatright {
+	float:right;
+	padding: 10px 10px 10px 10px;
+	color: #ffffff;
+  	font-size: 18px;
+  	font-weight: normal;
+  	font-family: BrandonGrotesque;
+  	font-weight: 200;
+  	text-align: right;
+}
+
+.floatleft {
+	float: left;
+	padding: 10px 10px 10px 10px;
+	text-align: left;
+	color: #ffffff;
+	font-family: Brandongrotesque;
+	margin-top: 10px;
+}
+.color.left {
+	float:left;
+	width: 250px;
+	height: 70px;
+	border-width: 5px;
+	border-color: #ffffff;
+	margin: 10px 10px 10px 10px;
+}
+
+.color.left.blue {
+	background-color: #104084;
+}
+
+.color.left.bgblue {
+	background-color: #E6EAF0;
+}
+
+.color.left.orange {
+	background-color: #FC7E4C;
 }
 
 .shopindexheaders {
@@ -67,7 +146,7 @@
 
 .indexh4 {
 	font-size: 16px;
-	color: #104084;
+	color: #ffffff;
 	font-family: "Meta", "Helvetica Neue", Helvetica, Arial;
 	font-weight: 500;
 }
